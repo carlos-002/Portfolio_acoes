@@ -1,0 +1,15 @@
+[
+    {
+      "ticker": "AAPL",
+      "empresa": "Apple Inc.",
+      "quantidade": 10,
+      "precoCompra": 150
+    },
+    {
+      "ticker": "MSFT",
+      "empresa": "Microsoft Corporation",
+      "quantidade": 5,
+      "precoCompra": 200
+    }
+  ]
+  
