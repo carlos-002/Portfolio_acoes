@@ -108,7 +108,7 @@ async function getCurrentPrice(ticker) {
 function savePortfolioToFile() {
     if (portfolio.length === 0) {
         alert('O portfólio está vazio. Não há dados para salvar.');
-        return;  // Não prosseguir com o download se o portfólio estiver vazio
+        return; 
     }
 
     const dataStr = JSON.stringify(portfolio, null, 2);
@@ -116,7 +116,7 @@ function savePortfolioToFile() {
     const downloadLink = document.createElement('a');
 
     downloadLink.href = URL.createObjectURL(dataBlob);
-    downloadLink.download = 'portfolio.json';  // Nome do arquivo que será baixado
+    downloadLink.download = 'portfolio.json';  
     downloadLink.click();
 }
 
